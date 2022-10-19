@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 import GetGreeting from './GetGreeting';
 
 const initialState = {
-  message: 'No Message Fetched.',
+  message: 'No Message Fetched. Please Wait...',
 };
 
 const messageSlice = createSlice({
